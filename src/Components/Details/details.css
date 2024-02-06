@@ -1,0 +1,34 @@
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 83, 83);
+    margin: 1rem 6rem;
+    width: auto;
+    height: 150px;
+}
+.details-text h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.details-datas{
+    display: flex;
+}
+
+.details-data{
+    width: 150px;
+}
+.details-data h5{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+.details-data p{
+    color: white;
+    font-size: 13px;
+}
