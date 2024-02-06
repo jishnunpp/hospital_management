@@ -5,7 +5,7 @@
     background-color: rgb(248, 83, 83);
     margin: 1rem 6rem;
     width: auto;
-    height: 150px;
+    height: 170px;
 }
 .details-text h2{
     color: white;
@@ -21,6 +21,7 @@
 }
 
 .details-data{
+    
     width: 150px;
 }
 .details-data h5{
@@ -35,11 +36,11 @@
     font-size: 13px;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .details{
-        flex-direction: column;
-        justify-content: center;
-        height: 300px;
+       
+        height: 200px;
+        margin: 1rem 4rem;
     }
     
     .details-text h2{
@@ -47,12 +48,33 @@
     }
    
     .details-data{
-        width: 80px;
+        width: 70px;
+        margin: 3px 0;
     }
     .details-data h5{
-        font-size: 20px;
+        font-size: 15px;
+        font-weight: 500px;
     }
     .details-data p{
         margin: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .details{
+        
+        margin: 1rem 2rem;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem 2rem;
+        height: 320px;
     }
 }
