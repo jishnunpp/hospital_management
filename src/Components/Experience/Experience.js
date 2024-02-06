@@ -1,13 +1,14 @@
 import React from 'react'
 import './Experence.css'
+import ex from '../../Assets/cdc-bzj1U0udLnM-unsplash.jpg'
 
 const Experience = () => {
   return (
-    <div className='experinece section_padding'>
-        <div className='experinece-heading'>
-            <h4>
+    <div className='experinece section-padding'>
+        <div className='experinece-section-heading'>
+            <p>
               why Choose Us
-            </h4>
+            </p>
 
         </div>
         <div className='experinece-section'>
@@ -38,6 +39,7 @@ const Experience = () => {
 
             </div>
             <div experinece-image>
+                <img src={ex} alt='ex'/>
 
             </div>
 

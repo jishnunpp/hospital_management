@@ -1,0 +1,33 @@
+.experinece{
+    margin: 1rem 0;
+}
+.experinece-section-heading p{
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+.experinece-section{
+    display: flex;
+}
+.experinece-text{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.experinece-image{
+    width: 400px;
+}
+
+.experinece-image img{
+    height: 300px;
+    width: 250px;
+}
