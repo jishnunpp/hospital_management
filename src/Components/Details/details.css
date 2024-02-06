@@ -16,13 +16,15 @@
 
 .details-datas{
     display: flex;
+
+    flex-wrap: wrap;
 }
 
 .details-data{
     width: 150px;
 }
 .details-data h5{
-  color: white;
+  color:white;
   font-size: 30px;
   font-weight: 800;
   margin: 0;
@@ -31,4 +33,26 @@
 .details-data p{
     color: white;
     font-size: 13px;
+}
+
+@media screen and (max-width:700px){
+    .details{
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+    }
+    
+    .details-text h2{
+        font-size: 20px;
+    }
+   
+    .details-data{
+        width: 80px;
+    }
+    .details-data h5{
+        font-size: 20px;
+    }
+    .details-data p{
+        margin: 0;
+    }
 }

@@ -1,5 +1,5 @@
 .experinece{
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 .experinece-section-heading p{
     color: red;
@@ -8,13 +8,52 @@
 }
 .experinece-section{
     display: flex;
+    justify-content: space-between;
 }
 .experinece-text{
-    width: 400px;
+    width:50%;
+}
+.experinece-heading h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+  
+}
+.experinece-points{
+    margin: 3rem 0 0 0;
+}
+.experinece-point-line{
+    display: flex;
+    align-items: flex-start;
+}
+.experinece-point-number-count{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-right: 1rem;
+    background-color: rgb(248, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.experinece-point-number p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
 }
 
+.experinece-point-text h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.experinece-point-text p{
+    font-size: 14px;
 
-
+}
 
 
 
@@ -24,10 +63,14 @@
 
 
 .experinece-image{
-    width: 400px;
+    width:50%;
+    display: flex;
+    justify-content: center;
 }
 
 .experinece-image img{
-    height: 300px;
-    width: 250px;
+    width: 100%;
+    height: 450px;
+    padding-left: 3rem;
+    
 }
