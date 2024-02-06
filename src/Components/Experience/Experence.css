@@ -60,8 +60,6 @@
 
 
 
-
-
 .experinece-image{
     width:50%;
     display: flex;
@@ -73,4 +71,26 @@
     height: 450px;
     padding-left: 3rem;
     
+}
+
+
+
+@media screen and (max-width:800px){
+
+    .experinece-section{
+        flex-direction: column;
+    }
+    .experinece-text{
+        width:100%;
+    }
+    .experinece-image{
+        width: 100%;
+    }
+    .experinece-image img{
+        width: 100%;
+        height: 350px;
+        padding:0;
+        
+    }
+
 }
