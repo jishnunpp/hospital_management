@@ -39,28 +39,26 @@ const Experience = () => {
               <div className="experinece-point-line">
                 <div className="experinece-point-number">
                   <div className="experinece-point-number-count">
-                    <p>1</p>
+                    <p>2</p>
                   </div>
                 </div>
                 <div className="experinece-point-text">
-                  <h3>Experenced Proffetional</h3>
+                  <h3>Compassionate Care</h3>
                   <p>
-                    Our team Of dedicated Healthcare Providers Has Years of
-                    Experience And Expertice{" "}
+                    Compassionate Care is vital aspect of ensuring the well-being and comfort of patients
                   </p>
                 </div>
               </div>
               <div className="experinece-point-line">
                 <div className="experinece-point-number">
                   <div className="experinece-point-number-count">
-                    <p>1</p>
+                    <p>3</p>
                   </div>
                 </div>
                 <div className="experinece-point-text">
-                  <h3>Experenced Proffetional</h3>
+                  <h3>Patient Centerd</h3>
                   <p>
-                    Our team Of dedicated Healthcare Providers Has Years of
-                    Experience And Expertice{" "}
+                   Your health is our priority. We work closely with each patient to develop healthcare plans.
                   </p>
                 </div>
               </div>
