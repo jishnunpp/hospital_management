@@ -17,7 +17,7 @@
 
 .dpmt_cards{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 .dpmt_card{
@@ -62,7 +62,14 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:1000px){
+    .dpmt_cards{
+        
+        justify-content:space-evenly;
+       
+    }
 
+}
 @media screen and (max-width:700px){
     .dpmt_card-section{
         display: flex;

@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(248, 83, 83);
-    margin: 1rem 6rem;
+    margin: 4rem 6rem;
     width: auto;
     height: 170px;
 }
@@ -48,7 +48,7 @@
     }
    
     .details-data{
-        width: 70px;
+        width: 80px;
         margin: 3px 0;
     }
     .details-data h5{
@@ -75,6 +75,6 @@
         flex-direction: column;
         justify-content: center;
         margin: 1rem 2rem;
-        height: 320px;
+        height: 200px;
     }
 }

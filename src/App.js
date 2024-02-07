@@ -11,16 +11,16 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Banner/>
+      
       <Details/>
       <Dpmt_card/>
       <Experience/>
       <Contact_form/>
-      
-      <Banner/>
 
       <Footer/>
       
-      
+
     </div>
   );
 }
