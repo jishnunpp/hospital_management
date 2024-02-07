@@ -7,6 +7,9 @@ import Dpmt_card from './Components/Dpmt_card/Dpmt_card';
 import Details from './Components/Details/Details';
 import Experience from './Components/Experience/Experience';
 import Contact_form from './Components/Contact_form/Contact_form';
+import Testimonial from './Components/Testimonial/Testimonial';
+
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +20,9 @@ function App() {
       <Dpmt_card/>
       <Experience/>
       <Contact_form/>
+      <Testimonial/>
+      
+
 
       <Footer/>
       
