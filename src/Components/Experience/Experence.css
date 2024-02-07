@@ -1,5 +1,5 @@
 .experinece{
-    margin: 3rem 0;
+    margin: 6rem 0;
 }
 .experinece-section-heading p{
     color: red;
@@ -31,16 +31,16 @@
 .experinece-point-number-count{
     height: 50px;
     width: 50px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-right: 1rem;
-    background-color: rgb(248, 83, 83);
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .experinece-point-number p{
-    color: white;
+    color: black;
     font-size: 30px;
     font-weight: 600;
 }

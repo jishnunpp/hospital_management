@@ -8,6 +8,7 @@ import Details from './Components/Details/Details';
 import Experience from './Components/Experience/Experience';
 import Contact_form from './Components/Contact_form/Contact_form';
 import Testimonial from './Components/Testimonial/Testimonial';
+import About from './Components/About/About';
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
       
       <Details/>
       <Dpmt_card/>
+      <About/>
       <Experience/>
-      <Contact_form/>
       <Testimonial/>
+      <Contact_form/>
       
 
 

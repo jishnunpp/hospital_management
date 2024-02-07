@@ -8,7 +8,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const footer = () => {
   return (
-    <div className='footer section-padding'>
+    <div className='footer'>
+    <div className='footer-content section-padding'>
       <div className='footer-section'>
         <div className='footer-logo'>
          <div className='footer-logo-image'>
@@ -69,6 +70,11 @@ const footer = () => {
 
       </div>
       
+    </div>
+    <div className='footer-copyright'>
+      <p>designed and developed by Jishnu np</p>
+    </div>
+
     </div>
   )
 }

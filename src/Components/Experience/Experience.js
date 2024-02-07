@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experence.css";
-import ex from "../../Assets/cdc-bzj1U0udLnM-unsplash.jpg";
+import ex from "../../Assets/doc1.jpg";
 
 const Experience = () => {
   return (
