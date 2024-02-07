@@ -12,8 +12,17 @@ const Contact_form = () => {
             <p>Make an appoinment</p>
           <h1>Meet With Our Experts</h1>
           <div className='form'>
-            <input placeholder='choose Department' className='input'/>
-            <input placeholder='choose Doctor'/>
+            <div className='form-section'>
+            <input placeholder='choose Department' type='text' className='input-data'/>
+            <input placeholder='choose Doctor'type='text' className='input-data'/>
+            <input placeholder='Enter your name' type='text' className='input-data' />
+            <input placeholder='Enter email address' type='email' className='input-data'/>
+            <input placeholder='phone' type='number' className='input-sdata'/>
+            <input placeholder='date' type='date' className='input-sdata'/>
+            <input placeholder='choose Department' type='time' className='input-sdata'/>
+            </div>
+            <div className='form-btn'> <button>Book an Appoinment</button></div>
+            
 
           </div>
         </div>
