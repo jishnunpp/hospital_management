@@ -1,6 +1,6 @@
 import React from "react";
 import "./banner.css";
-
+import { Link } from 'react-router-dom';
 import b2 from "../../Assets/banner.jpg";
 
 const Banner = () => {
@@ -19,7 +19,9 @@ const Banner = () => {
           Your Journey To Better Health <br />
           Begins With Us
         </h1>
-        <div className='banner-btn'> <button>Book an Appoinment</button></div>
+        <div className='banner-btn'>
+           <Link to={'contacts'} >  <button>Book an Appoinment</button> </Link>
+           </div>
         
         </div>
       </div>

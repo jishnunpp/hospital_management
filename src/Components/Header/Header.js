@@ -3,6 +3,7 @@ import './header.css'
 import logo from '../../Assets/esight-logo.jpg'
 import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -24,10 +25,11 @@ const Header = () => {
         </div>
         <div  className='header-menu'>
             <ul>
-                <li>Features</li>
-                <li>Benefits</li>
-                <li>Demo</li>
-                <li>Contact</li>
+               < Link to={'/'} > <li>Home</li></Link>
+               < Link to={'features'} ><li>Features</li></Link>
+               < Link to={'benefit'} ><li>Benefits</li></Link>
+               
+               < Link to={'contacts'} > <li>Contact</li></Link>
             </ul>
 
         </div>
@@ -48,10 +50,11 @@ const Header = () => {
         {
             toggleMenu &&<div className='navbar-links'>
                 <ul>
-                <li>Features</li>
-                <li>Benefits</li>
-                <li>Demo</li>
-                <li>Contact</li>
+                < Link to={'/'} ><li>Home</li></Link>
+                < Link to={'features'} ><li>Features</li></Link>
+                < Link to={'benefit'} ><li>Benefits</li></Link>
+                
+                < Link to={'contacts'} ><li>Contact</li></Link>
                 </ul>
 
             </div>

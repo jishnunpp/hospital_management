@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    border-bottom: 1px solid gray;
     
     
 }
@@ -27,6 +28,7 @@
     padding: 0 1rem;
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
     
 }
 .header-menu li:hover{
@@ -66,9 +68,13 @@
     list-style: none;
     padding: 10px 0;
     text-align: left;
+    text-decoration: none;
 }
 
 .navbar-links li:hover{
     color: rgb(248, 83, 83) ;
     cursor: pointer;
+}
+.navbar-menu Link{
+    text-decoration: none;
 }

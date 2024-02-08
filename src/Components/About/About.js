@@ -3,6 +3,7 @@ import "./about.css";
 import doctor from "../../Assets/doc2.jpg";
 import heart from '../../Assets/icons8-activity-64.png';
 import vission from '../../Assets/icons8-microscope-50.png'
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -44,7 +45,7 @@ const About = () => {
         </div>
 
         <div className="about-content-btn">
-            <button>more about Us</button>
+        <Link to={'contacts'} > <button>more about Us</button></Link>
         </div>
       </div>
     </div>
