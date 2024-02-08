@@ -25,11 +25,11 @@ const Header = () => {
         </div>
         <div  className='header-menu'>
             <ul>
-               < Link to={'/'} > <li>Home</li></Link>
-               < Link to={'features'} ><li>Features</li></Link>
-               < Link to={'benefit'} ><li>Benefits</li></Link>
+               < Link to={'/'} className='link' > <li>Home</li></Link>
+               < Link to={'features'} className='link'><li>Features</li></Link>
+               < Link to={'benefit'} className='link'><li>Benefits</li></Link>
                
-               < Link to={'contacts'} > <li>Contact</li></Link>
+               < Link to={'contacts'} className='link'> <li>Contact</li></Link>
             </ul>
 
         </div>
@@ -50,11 +50,11 @@ const Header = () => {
         {
             toggleMenu &&<div className='navbar-links'>
                 <ul>
-                < Link to={'/'} ><li>Home</li></Link>
-                < Link to={'features'} ><li>Features</li></Link>
-                < Link to={'benefit'} ><li>Benefits</li></Link>
+                < Link to={'/'} className='link' ><li>Home</li></Link>
+                < Link to={'features'} className='link' ><li>Features</li></Link>
+                < Link to={'benefit'} className='link'><li>Benefits</li></Link>
                 
-                < Link to={'contacts'} ><li>Contact</li></Link>
+                < Link to={'contacts'} className='link'><li>Contact</li></Link>
                 </ul>
 
             </div>
