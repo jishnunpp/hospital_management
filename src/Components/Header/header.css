@@ -4,6 +4,7 @@
     align-items: center;
     position: relative;
     border-bottom: 1px solid gray;
+   
     
     
 }
@@ -58,7 +59,7 @@
     background-color: white;
     right: 0;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     
 }
 .navbar-links ul{
@@ -77,4 +78,5 @@
 }
 .link{
     text-decoration: none;
+    color: black;
 }

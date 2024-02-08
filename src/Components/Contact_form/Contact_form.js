@@ -20,7 +20,7 @@ const Contact_form = () => {
             <div className='form-small-section'>
             <input placeholder='phone' type='number' className='input-sdata'/>
             <input placeholder='date' type='date' className='input-sdata'/>
-            <input placeholder='choose Department' type='time' className='input-sdata'/>
+            <input placeholder='Time' type='time' className='input-sdata'/>
 
             </div>
             </div>
