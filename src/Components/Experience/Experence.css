@@ -57,9 +57,6 @@
 
 
 
-
-
-
 .experinece-image{
     width:50%;
     display: flex;
@@ -70,6 +67,7 @@
     width: 100%;
     height: 450px;
     padding-left: 3rem;
+    border-radius: 10px;
     
 }
 
@@ -88,7 +86,7 @@
     }
     .experinece-image img{
         width: 100%;
-        height: 270px;
+        height: 280px;
         padding:0;
         
     }
