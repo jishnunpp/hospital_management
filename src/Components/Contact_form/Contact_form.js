@@ -17,9 +17,12 @@ const Contact_form = () => {
             <input placeholder='choose Doctor'type='text' className='input-data'/>
             <input placeholder='Enter your name' type='text' className='input-data' />
             <input placeholder='Enter email address' type='email' className='input-data'/>
+            <div className='form-small-section'>
             <input placeholder='phone' type='number' className='input-sdata'/>
             <input placeholder='date' type='date' className='input-sdata'/>
             <input placeholder='choose Department' type='time' className='input-sdata'/>
+
+            </div>
             </div>
             <div className='form-btn'> <button>Book an Appoinment</button></div>
             
