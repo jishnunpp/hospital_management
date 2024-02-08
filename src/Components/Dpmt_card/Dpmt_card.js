@@ -1,9 +1,9 @@
 import React from "react";
 import "./dpmt_card.css";
-import cardio from '../../Assets/icons8-cardiology-64 (1).png';
-import kidney from '../../Assets/icons8-urology-64.png';
-import neurology from '../../Assets/icons8-neurology-50 (1).png';
-import surgery from '../../Assets/icons8-surgery-50 (1).png'
+import cardio from '../../Assets/cardio-img.png';
+import kidney from '../../Assets/uro-img.png';
+import neurology from '../../Assets/neuro-img.png';
+import surgery from '../../Assets/surgery-img.png'
 
 const Dpmt_card = () => {
   return (
